@@ -9,14 +9,14 @@ console.log(arrNum);
 
 
 for (let i = 0; i < 6; i++){
-    
+
     let numUser = parseInt(prompt('scrivi qui un numero intero'));
     console.log('numUser:', numUser);
 
-    if (numUser %2 != 0){
+    if (numUser %2 == 1){
         arrNum.push(numUser);
         console.log(arrNum);
-    }else if (numUser == NaN || numUser %2 == 0){
+    }else{
         console.log(arrNum);
     }
 }
