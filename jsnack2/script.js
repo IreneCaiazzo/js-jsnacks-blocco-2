@@ -5,7 +5,8 @@ const arrFirstName = ['Luca', 'Marco', 'Paolo', 'Elena', 'Lisa', 'Marta', 'Andre
 const arrLastName = ['Bianchi', 'Rossi', 'Verdi', 'Gialli', 'Blu', 'Viola', 'Neri'];
 const guests = [];
 
-for (i = 0; i < 10; i++){
+for (let i = 0; i < arrFirstName.length; i++){
+
    const fakeFN = arrFirstName[Math.floor(Math.random() * arrFirstName.length)];
    console.log (fakeFN);
    
